@@ -25,7 +25,9 @@
       <button mat-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
       <span class="nav-brand">Application Title</span>
     </mat-toolbar>
-    <app-dashboard-directory></app-dashboard-directory>
+    <div class="container-fluid">
+      <app-dashboard-directory></app-dashboard-directory>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
 <router-outlet></router-outlet>
