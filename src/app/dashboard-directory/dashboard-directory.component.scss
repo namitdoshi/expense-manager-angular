@@ -1,0 +1,14 @@
+.summary-card {
+  .summary-card-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    .vertical {
+      border-left: 1px solid black; 
+      height: 3vh;
+    }
+  }
+}
