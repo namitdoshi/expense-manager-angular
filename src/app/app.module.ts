@@ -10,13 +10,15 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
+import { DashboardDirectoryComponent } from './dashboard-directory/dashboard-directory.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    NavigationComponent
+    NavigationComponent,
+    DashboardDirectoryComponent
   ],
   imports: [
     BrowserModule,
