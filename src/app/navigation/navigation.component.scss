@@ -1,12 +1,15 @@
-mat-sidenav {
-  width: 25vw;
+.mat-sidenav-container {
+  height: 100vh;
+
+  .mat-sidenav {
+    width: 25vw;
+    // background: gray;
+  }
 }
-
-
 
 // responsive
 @media(max-width: 786px) {
-  mat-sidenav {
-    width: 60vw;
+  .mat-sidenav {
+    width: 60vw !important;
   }
 }
