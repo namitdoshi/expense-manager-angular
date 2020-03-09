@@ -1,0 +1,12 @@
+mat-sidenav {
+  width: 25vw;
+}
+
+
+
+// responsive
+@media(max-width: 786px) {
+  mat-sidenav {
+    width: 60vw;
+  }
+}
