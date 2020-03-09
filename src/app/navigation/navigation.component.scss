@@ -10,11 +10,23 @@
 
       button {
         padding: 0 !important;
+
+        span {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-left: 1vw;
+          
+          span {
+            padding-left: 1vw;
+          }
+        }
       }
 
       .mat-button {
         width: 100%;
         padding: 4px 0 !important;
+        text-align: left;
       }
     }
   }
@@ -24,5 +36,14 @@
 @media(max-width: 786px) {
   .mat-sidenav {
     width: 60vw !important;
+  }
+
+  button {
+    span {
+      padding-left: 2vw;
+      span {
+        padding-left: 4vw !important;
+      }
+    }
   }
 }
