@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary.component";
+import { DailyExpensesComponent } from './daily-expenses/daily-expenses.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary
     LoginComponent,
     DashboardComponent,
     NavigationComponent,
-    DashboardSummaryComponent
+    DashboardSummaryComponent,
+    DailyExpensesComponent
   ],
   imports: [
     BrowserModule,
