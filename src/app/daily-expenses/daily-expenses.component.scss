@@ -1,0 +1,10 @@
+.expense-card {
+  margin-top: 2vh;
+
+  .expense-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
