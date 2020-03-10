@@ -10,7 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
-import { DashboardDirectoryComponent } from './dashboard-directory/dashboard-directory.component';
+import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary.component";
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { DashboardDirectoryComponent } from './dashboard-directory/dashboard-dir
     LoginComponent,
     DashboardComponent,
     NavigationComponent,
-    DashboardDirectoryComponent
+    DashboardSummaryComponent
   ],
   imports: [
     BrowserModule,
