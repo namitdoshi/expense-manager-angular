@@ -21,4 +21,20 @@
   hr {
     margin-top: 0;
   }
+  .mat-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    .expense-text {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .card-expense-icon {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+    }  
+  }
 }
