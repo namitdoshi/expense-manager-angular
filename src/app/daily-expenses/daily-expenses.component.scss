@@ -31,6 +31,10 @@
       flex-direction: row;
       align-items: center;
 
+      span {
+        padding-left: 1.5vw;
+      }
+
       .card-expense-icon {
         background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
         background-size: cover;
