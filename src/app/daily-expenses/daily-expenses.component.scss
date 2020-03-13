@@ -6,6 +6,16 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+  
+    .header-left-child {
+      display: flex;
+      flex-direction: row;
+
+      .mat-card-subtitle {
+        margin-top: 0;
+        padding-left: 1vw;
+      }
+    } 
   }
 
   hr {
