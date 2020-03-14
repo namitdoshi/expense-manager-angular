@@ -13,6 +13,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary.component";
 import { DailyExpensesComponent } from './daily-expenses/daily-expenses.component';
 import { AdditemsComponent } from './additems/additems.component';
+import { CalenderComponent } from './calender/calender.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AdditemsComponent } from './additems/additems.component';
     NavigationComponent,
     DashboardSummaryComponent,
     DailyExpensesComponent,
-    AdditemsComponent
+    AdditemsComponent,
+    CalenderComponent
   ],
   imports: [
     BrowserModule,
