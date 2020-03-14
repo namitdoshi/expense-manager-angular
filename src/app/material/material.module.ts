@@ -5,6 +5,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 
 
@@ -17,14 +18,16 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatDatepickerModule
   ],
   exports: [
     MatToolbarModule,
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatDatepickerModule
   ]
 })
 export class MaterialModule { }
