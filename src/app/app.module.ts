@@ -12,6 +12,7 @@ import { MaterialModule } from './material/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary.component";
 import { DailyExpensesComponent } from './daily-expenses/daily-expenses.component';
+import { AdditemsComponent } from './additems/additems.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DailyExpensesComponent } from './daily-expenses/daily-expenses.componen
     DashboardComponent,
     NavigationComponent,
     DashboardSummaryComponent,
-    DailyExpensesComponent
+    DailyExpensesComponent,
+    AdditemsComponent
   ],
   imports: [
     BrowserModule,
