@@ -14,6 +14,7 @@ import { DashboardSummaryComponent } from "./dashboard-summary/dashboard-summary
 import { DailyExpensesComponent } from './daily-expenses/daily-expenses.component';
 import { AdditemsComponent } from './additems/additems.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { AddItemsNavbarComponent } from './add-items-navbar/add-items-navbar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     DashboardSummaryComponent,
     DailyExpensesComponent,
     AdditemsComponent,
-    CalendarComponent
+    CalendarComponent,
+    AddItemsNavbarComponent
   ],
   imports: [
     BrowserModule,
