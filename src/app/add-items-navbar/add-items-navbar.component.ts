@@ -15,13 +15,14 @@ export class AddItemsNavbarComponent implements OnInit {
     {value: 'Expenses'},
     {value: 'Income'}
   ]
-
+  screenToggler: boolean
   constructor() { }
 
   ngOnInit(): void {
   }
 
   onSelectChange() {
-    console.log('1')
+    this.screenToggler = (!this.screenToggler)
+    // console.log(this.screenToggler)
   }
 }

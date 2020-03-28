@@ -13,5 +13,5 @@
   </mat-form-field>  
 </mat-toolbar>
 
-<app-add-income></app-add-income>
-<app-add-expense></app-add-expense>
+<app-add-income *ngIf="!screenToggler"></app-add-income>
+<app-add-expense *ngIf="screenToggler"></app-add-expense>
