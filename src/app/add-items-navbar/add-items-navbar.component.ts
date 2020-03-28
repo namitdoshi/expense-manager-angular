@@ -21,4 +21,7 @@ export class AddItemsNavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSelectChange() {
+    console.log('1')
+  }
 }
