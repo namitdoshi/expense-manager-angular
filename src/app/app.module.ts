@@ -16,6 +16,8 @@ import { AdditemsComponent } from './additems/additems.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { AddItemsNavbarComponent } from './add-items-navbar/add-items-navbar.component';
 import { ViewAddScreensComponent } from './view-add-screens/view-add-screens.component';
+import { AddExpenseComponent } from './add-expense/add-expense.component';
+import { AddIncomeComponent } from './add-income/add-income.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ViewAddScreensComponent } from './view-add-screens/view-add-screens.com
     AdditemsComponent,
     CalendarComponent,
     AddItemsNavbarComponent,
-    ViewAddScreensComponent
+    ViewAddScreensComponent,
+    AddExpenseComponent,
+    AddIncomeComponent
   ],
   imports: [
     BrowserModule,
