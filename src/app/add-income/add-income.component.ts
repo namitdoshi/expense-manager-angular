@@ -15,7 +15,10 @@ export class AddIncomeComponent implements OnInit {
   expenses: expenseArray[] = [
     { icon: 'account_balance_wallet', name: 'Salary'},
     { icon: 'card_giftcard', name: 'Gifts'},
-    // { icon: '', name: ''}
+    { icon: 'show_chart', name: 'Divends'},
+    { icon: 'local_atm', name: 'Rental'},
+    { icon: 'replay', name: 'Refund'},
+    // { icon: '', name: ''},
   ]
 
   constructor() { }
