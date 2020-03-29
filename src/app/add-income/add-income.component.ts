@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-interface expenseArray {
+interface incomeArray {
   icon: string,
   name: string
 }
@@ -12,7 +12,7 @@ interface expenseArray {
 })
 export class AddIncomeComponent implements OnInit {
 
-  expenses: expenseArray[] = [
+  incomes: incomeArray[] = [
     { icon: 'account_balance_wallet', name: 'Salary'},
     { icon: 'card_giftcard', name: 'Gifts'},
     { icon: 'show_chart', name: 'Divends'},
