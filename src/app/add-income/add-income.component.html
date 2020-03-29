@@ -1,8 +1,8 @@
 <mat-chip-list aria-label="Fish selection">
-<div class="tile-container">
+<div class="tile-container" *ngFor="let expense of expenses">
   <mat-chip>
-    <mat-icon>home</mat-icon>
+    <mat-icon>{{ expense.icon }}</mat-icon>
   </mat-chip>
-  <span>Home</span>
+  <span>{{ expense.name }}</span>
 </div>
 </mat-chip-list>
