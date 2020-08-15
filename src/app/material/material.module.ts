@@ -8,6 +8,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatSelectModule} from '@angular/material/select';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -23,7 +24,8 @@ import {MatChipsModule} from '@angular/material/chips';
     MatCardModule,
     MatDatepickerModule,
     MatSelectModule,
-    MatChipsModule
+    MatChipsModule,
+    MatFormFieldModule
   ],
   exports: [
     MatToolbarModule,
@@ -33,7 +35,8 @@ import {MatChipsModule} from '@angular/material/chips';
     MatCardModule,
     MatDatepickerModule,
     MatSelectModule,
-    MatChipsModule
+    MatChipsModule,
+    MatFormFieldModule
   ]
 })
 export class MaterialModule { }
