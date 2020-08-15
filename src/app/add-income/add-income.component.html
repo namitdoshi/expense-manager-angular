@@ -1,8 +1,10 @@
 <mat-chip-list>
-<div class="tile-container" *ngFor="let income of incomes">
-  <mat-chip>
-    <mat-icon>{{ income.icon }}</mat-icon>
-  </mat-chip>
-  <span>{{ income.name }}</span>
+<div class="tile-container container" *ngFor="let income of incomes">
+  <div class="row">
+    <mat-chip>
+      <mat-icon>{{ income.icon }}</mat-icon>
+    </mat-chip>
+    <span>{{ income.name }}</span>
+  </div>
 </div>
 </mat-chip-list>
