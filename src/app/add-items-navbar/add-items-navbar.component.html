@@ -5,12 +5,12 @@
   </button>
   <mat-form-field>
     <!-- <mat-label>Favorite food</mat-label> -->
-    <mat-select (selectionChange)="onSelectChange()">
-      <mat-option *ngFor="let item of select" [value]="item.value">
+    <mat-select [(value)]= selected (selectionChange)="onSelectChange()">
+      <mat-option *ngFor="let item of select" [value]="item.value" >
         {{item.value}}
       </mat-option>
     </mat-select>
-  </mat-form-field>  
+  </mat-form-field>
 </mat-toolbar>
 
 <div class="container-fluid">
